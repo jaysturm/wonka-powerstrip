@@ -10,7 +10,6 @@ var logger = require(`${__basedir}/logger`);
 require('winston-logs-display')(server, logger);
 
 var defaultRoute = require(`${__basedir}/route_methods/index`);
-var water = require(`${__basedir}/route_methods/water`);
 var powerStrip = require(`${__basedir}/route_methods/powerStrip`);
 
 server.use((req, res, next) => {
@@ -22,7 +21,6 @@ server.use((req, res, next) => {
 server.use(bodyParser.json());
 
 server.use('/', defaultRoute);
-// server.use('/water', water);
 server.use('/sockets', powerStrip);
 
 server.listen(5555, () => {
