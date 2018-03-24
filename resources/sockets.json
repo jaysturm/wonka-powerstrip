@@ -1,0 +1,10 @@
+[
+    { "pin": 3, "socket": 1, "name": "Socket 1", "state": false },
+    { "pin": 5, "socket": 2, "name": "Socket 2", "state": false },
+    { "pin": 7, "socket": 3, "name": "Socket 3", "state": false },
+    { "pin": 11, "socket": 4, "name": "Socket 4", "state": false },
+    { "pin": 13, "socket": 5, "name": "Socket 5", "state": false },
+    { "pin": 15, "socket": 6, "name": "Socket 6", "state": false },
+    { "pin": 19, "socket": 7, "name": "Socket 7", "state": false },
+    { "pin": 21, "socket": 8, "name": "Socket 8", "state": false }
+]
